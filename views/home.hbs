@@ -1,0 +1,21 @@
+<div class="home">
+    <div class="blog-avatar" style="background-image:url('{{bloghome.data.image.url}}')"></div>
+        <h1 class="blog-title">{{PrismicText bloghome.data.headline}}</h1>
+        <p class="blog-description">{{PrismicText bloghome.data.description}}</p>
+    </div>
+    <div class="blog-main">
+        {{#each posts}}
+            <div class="blog-post" data-wio-id="{{id}}">
+                <h2><a href="{{getLink this}}">{{PrismicText data.title}}</a></h2>
+                <span>{{tags}}</span>
+                <p class="blog-post-meta"> 
+                    <span class="created-at">{{getNiceDate data.date}}</span>
+                </p>
+                <p>{{getFirstParagraph data.body}}</p>
+                <br>
+            </div>
+        {{else}}
+        <p>No content.</p>
+        {{/each}}
+    </div>
+</div>
