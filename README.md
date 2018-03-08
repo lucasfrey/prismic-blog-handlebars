@@ -2,7 +2,7 @@
 
 This is a fork of the current Prismic Blog example but using `Handlebars` instead and `Pug`
 
-http://github.com/prismicio/javascript-nodejs-starter.git
+Original : https://github.com/prismicio/nodejs-blog/
 
 Node.js blog is a blog template with content managed in prismic.io (an API-based CMS).
 
