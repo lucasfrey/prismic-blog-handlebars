@@ -20,6 +20,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/prismicio/javascript-nodejs-starter.git"
+    "url": "http://github.com/lucasfrey/prismic-blog-handlebars"
   }
 }
